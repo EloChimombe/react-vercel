@@ -1,0 +1,14 @@
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px
+}
+.footer span{
+    background: linear-gradient(264deg, #DF8908 -5.09%, #e94539 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
