@@ -24,7 +24,7 @@ const Contact = () => {
         const data = await response.json();
     
         if (data.success) {
-          setResult("Form Submitted Successfully");
+          alert("Email Send Successfully");
           event.target.reset();
         } else {
           console.log("Error", data);
@@ -65,7 +65,6 @@ const Contact = () => {
                     <textarea name="message" rows="10" placeholder="Enter your message"></textarea>
                     <button type="submit" className="contact-submit">Submit now</button>
                 </form>
-                <span>{result}</span>
             </div>
     </div>
   );

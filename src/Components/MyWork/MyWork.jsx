@@ -13,10 +13,10 @@ const MyWork = () => {
         <h1>My Latest Work</h1>
         <img src={theme_pattern} alt="theme" />
       </div>
-      <div class="work-list">
-        <div class="work">
+      <div className="work-list">
+        <div className="work">
           <img src={travelPala} alt="travelPala" />
-          <div class="layer">
+          <div className="layer">
             <h3>Travel Pala</h3>
             <p>
               Travel Pala is a web application which allows people to book
@@ -26,9 +26,9 @@ const MyWork = () => {
             </p>
           </div>
         </div>
-        <div id="work" class="work">
+        <div id="work" className="work">
           <img src={capstone3} alt="capstoneProject" />
-          <div class="layer">
+          <div className="layer">
             <h3>Capstone Project</h3>
             <p>
               This project demostrate how to use public APIs using Javascript, I
@@ -37,9 +37,9 @@ const MyWork = () => {
             </p>
           </div>
         </div>
-        <div class="work">
+        <div className="work">
           <img src={capstone2} alt="capstoneProject" />
-          <div class="layer">
+          <div className="layer">
             <h3>Capstone Project</h3>
             <p>
               This is the captone project which I developed during web
