@@ -24,6 +24,9 @@ const Contact = () => {
         const data = await response.json();
     
         if (data.success) {
+
+          // document.getElementById('alrt').innerHTML='<b>Email Send Successfully!!!</b>'; 
+          // setTimeout(function() {document.getElementById('alrt').innerHTML='';},3000);
           alert("Email Send Successfully");
           event.target.reset();
         } else {
@@ -58,9 +61,9 @@ const Contact = () => {
                 </div>
                 <form id="form" onSubmit={onSubmit} className="contact-right">
                     <label htmlFor="">Your name</label>
-                    <input type="text" placeholder="Enter your name" name="name" />
+                    <input type="text" placeholder="Enter your name" name="name" required />
                     <label htmlFor="">Your Email</label>
-                    <input type="email" placeholder="Enter your email" name="email" />
+                    <input type="email" placeholder="Enter your email" name="email" required/>
                     <label htmlFor="">Write your message here</label>
                     <textarea name="message" rows="10" placeholder="Enter your message"></textarea>
                     <button type="submit" className="contact-submit">Submit now</button>
